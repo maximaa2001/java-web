@@ -4,27 +4,27 @@ import by.bsuir.ausiukevich.input.InputDouble;
 
 public class Argument {
 
-    private Double numberX;
-    private Double numberY;
+    private double numberX;
+    private double numberY;
 
     public Argument() {
         numberX = InputDouble.getInputDouble("X");
         numberY = InputDouble.getInputDouble("Y");
     }
 
-    public Double getNumberX() {
+    public double getNumberX() {
         return numberX;
     }
 
-    public void setNumberX(Double numberX) {
+    public void setNumberX(double numberX) {
         this.numberX = numberX;
     }
 
-    public Double getNumberY() {
+    public double getNumberY() {
         return numberY;
     }
 
-    public void setNumberY(Double numberY) {
+    public void setNumberY(double numberY) {
         this.numberY = numberY;
     }
 }

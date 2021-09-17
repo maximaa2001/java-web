@@ -1,5 +1,7 @@
 package by.bsuir.ausiukevich.input;
 
+import by.bsuir.ausiukevich.exception.InputExeption;
+
 import java.util.Scanner;
 
 public class InputInteger {
@@ -18,7 +20,7 @@ public class InputInteger {
             }
             System.out.println("Input number ...");
         }
-       return 0;
+       throw new InputExeption("Error when entering int number");
     }
 
 }

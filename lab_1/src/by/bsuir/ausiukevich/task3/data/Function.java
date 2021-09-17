@@ -3,9 +3,9 @@ package by.bsuir.ausiukevich.task3.data;
 import by.bsuir.ausiukevich.input.InputDouble;
 
 public class Function {
-    private Double a;
-    private Double b;
-    private Double h;
+    private double numberA;
+    private double numberB;
+    private double numberH;
 
     public Function() {
         installFields();
@@ -13,23 +13,23 @@ public class Function {
 
     private void installFields() {
         while (true) {
-            a = InputDouble.getInputDouble("a");
-            b = InputDouble.getInputDouble("b");
-            if (b > a) {
+            numberA = InputDouble.getInputDouble("a");
+            numberB = InputDouble.getInputDouble("b");
+            if (numberB > numberA) {
                 break;
             } else {
                 System.out.println("b SHOULD BE MORE THAN a");
             }
         }
-        h = InputDouble.getInputDouble("h");
+        numberH = InputDouble.getInputDouble("h");
     }
 
     public void printTable() {
         System.out.println("----------------------------------");
         System.out.printf("|%s|--------|%s|\n", "Arg", "Value");
-        while (a <= b) {
-            System.out.printf("|%s|--------|%s|\n", a, calcFunc(a));
-            a = a + h;
+        while (numberA <= numberB) {
+            System.out.printf("|%s|--------|%s|\n", numberA, calcFunc(numberA));
+            numberA = numberA + numberH;
         }
         System.out.println("----------------------------------");
     }
@@ -38,27 +38,27 @@ public class Function {
         return Math.tan(arg);
     }
 
-    public Double getA() {
-        return a;
+    public double getNumberA() {
+        return numberA;
     }
 
-    public void setA(Double a) {
-        this.a = a;
+    public void setNumberA(double numberA) {
+        this.numberA = numberA;
     }
 
-    public Double getB() {
-        return b;
+    public double getNumberB() {
+        return numberB;
     }
 
-    public void setB(Double b) {
-        this.b = b;
+    public void setNumberB(double numberB) {
+        this.numberB = numberB;
     }
 
-    public Double getH() {
-        return h;
+    public double getNumberH() {
+        return numberH;
     }
 
-    public void setH(Double h) {
-        this.h = h;
+    public void setNumberH(double numberH) {
+        this.numberH = numberH;
     }
 }

@@ -18,7 +18,7 @@ public class Check {
         return point;
     }
 
-    private Double installOneCoordinate(String str) {
+    private double installOneCoordinate(String str) {
         return InputDouble.getInputDouble(str);
     }
 }

@@ -11,7 +11,7 @@ public class Expression {
         System.out.println(new Expression().calculate(new Argument()));
     }
 
-    private Double calculate(Argument input) {
+    private double calculate(Argument input) {
         double top = pow(sin(input.getNumberX() + input.getNumberY()), 2) + 1;
         double downTop = 2 * input.getNumberX();
         double downDown = (pow(input.getNumberX(), 2) * pow(input.getNumberY(), 2)) + 1;

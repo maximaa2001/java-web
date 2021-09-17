@@ -1,5 +1,8 @@
 package by.bsuir.ausiukevich.input;
 
+import by.bsuir.ausiukevich.exception.InputExeption;
+
+import java.sql.SQLException;
 import java.util.Scanner;
 
 public class InputDouble {
@@ -7,7 +10,7 @@ public class InputDouble {
     private InputDouble() {
     }
 
-    public static Double getInputDouble(String str) {
+    public static double getInputDouble(String str) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input number " + str + " ...");
         while (scanner.hasNext()) {
@@ -22,6 +25,6 @@ public class InputDouble {
             }
             System.out.println("Input number " + str + " ...");
         }
-        return null;
+        throw new InputExeption("Error when entering double number");
     }
 }
