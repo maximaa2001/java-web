@@ -1,6 +1,6 @@
 package by.bsuir.ausiukevich.task2.logic;
 
-import by.bsuir.ausiukevich.task1.data.Input;
+import by.bsuir.ausiukevich.input.InputDouble;
 import by.bsuir.ausiukevich.task2.data.Graphic;
 import by.bsuir.ausiukevich.task2.data.Point;
 
@@ -13,12 +13,12 @@ public class Check {
 
     private Point installPoint() {
         Point point = new Point();
-        point.setX(installOneCoordinate());
-        point.setY(installOneCoordinate());
+        point.setX(installOneCoordinate("X"));
+        point.setY(installOneCoordinate("Y"));
         return point;
     }
 
-    private Double installOneCoordinate() {
-        return Input.installNumber();
+    private Double installOneCoordinate(String str) {
+        return InputDouble.getNumber(str);
     }
 }
