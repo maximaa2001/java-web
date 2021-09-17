@@ -1,21 +1,20 @@
 package by.bsuir.ausiukevich.task6.data;
 
-import java.util.List;
-
 public class Matrix {
     private double[][] square;
-    private List<Double> elements;
+    private Sequence sequence;
 
-    public Matrix(List<Double> arr) {
-        square = new double[arr.size()][arr.size()];
-        elements = arr;
+    public Matrix(Sequence sequence) {
+        square = new double[sequence.getSize()][sequence.getSize()];
+        this.sequence = sequence;
     }
 
     public void fillMatrix() {
+        double[] elements = sequence.getArrayNumbers();
         for (int i = 0; i < square.length; i++) {
             int temp = i;
             for (int j = 0; j < square[i].length; j++) {
-                square[i][j] = elements.get(temp % elements.size());
+                square[i][j] = elements[temp % elements.length];
                 temp++;
             }
         }
@@ -38,11 +37,11 @@ public class Matrix {
         this.square = square;
     }
 
-    public List<Double> getElements() {
-        return elements;
+    public Sequence getSequence() {
+        return sequence;
     }
 
-    public void setElements(List<Double> elements) {
-        this.elements = elements;
+    public void setSequence(Sequence sequence) {
+        this.sequence = sequence;
     }
 }

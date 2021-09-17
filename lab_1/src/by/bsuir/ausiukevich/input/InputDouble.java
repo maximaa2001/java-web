@@ -30,11 +30,11 @@ public class InputDouble {
         throw new InputExeption("Error when entering double number");
     }
 
-    public static List<Double> getListDouble(int count){
-        List<Double> list = new ArrayList<>();
+    public static double[] getArrayDouble(int count) {
+        double[] numbers = new double[count];
         for (int i = 0; i < count; i++) {
-            list.add(getInputDouble("of array"));
+            numbers[i] = getInputDouble("of array");
         }
-        return list;
+        return numbers;
     }
 }

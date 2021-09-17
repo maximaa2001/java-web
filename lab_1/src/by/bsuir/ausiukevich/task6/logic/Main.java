@@ -1,16 +1,14 @@
 package by.bsuir.ausiukevich.task6.logic;
 
-import by.bsuir.ausiukevich.input.InputDouble;
 import by.bsuir.ausiukevich.input.InputInteger;
 import by.bsuir.ausiukevich.task6.data.Matrix;
-
-import java.util.List;
+import by.bsuir.ausiukevich.task6.data.Sequence;
 
 public class Main {
     public static void main(String[] args) {
         int countElements = new Main().getCountElements();
-        List<Double> listElements = InputDouble.getListDouble(countElements);
-        Matrix matrix = new Matrix(listElements);
+        Sequence sequence = new Sequence(countElements);
+        Matrix matrix = new Matrix(sequence);
         matrix.fillMatrix();
         matrix.printMatrix();
     }
