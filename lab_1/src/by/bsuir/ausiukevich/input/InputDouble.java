@@ -2,6 +2,8 @@ package by.bsuir.ausiukevich.input;
 
 import by.bsuir.ausiukevich.exception.InputExeption;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class InputDouble {
@@ -33,5 +35,20 @@ public class InputDouble {
             numbers[i] = getInputDouble("of array");
         }
         return numbers;
+    }
+
+    public static List<Double> getHighestList(int count){
+        List<Double> list = new ArrayList<>();
+        int i = 0;
+        while (i < count){
+            double temp = getInputDouble("of list");
+            if(list.isEmpty() || list.get(list.size()-1) < temp){
+                list.add(temp);
+                i++;
+            }else {
+                System.out.println("Every next number must be more than previous");
+            }
+        }
+        return list;
     }
 }

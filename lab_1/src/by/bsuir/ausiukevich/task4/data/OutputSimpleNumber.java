@@ -24,7 +24,7 @@ public class OutputSimpleNumber {
                     }
                 }
                 if (isSimple) {
-                    System.out.print(arraySequence[i] + " ");
+                    System.out.print(arraySequence[i] + "(index = " + i + ") ");
                 }
             }
         }
