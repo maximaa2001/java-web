@@ -22,5 +22,4 @@ public class InputInteger {
         }
        throw new InputExeption("Error when entering int number");
     }
-
 }
