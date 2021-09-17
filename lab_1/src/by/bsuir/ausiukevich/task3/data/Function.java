@@ -13,15 +13,15 @@ public class Function {
 
     private void installFields() {
         while (true) {
-            a = InputDouble.getNumber("a");
-            b = InputDouble.getNumber("b");
+            a = InputDouble.getInputDouble("a");
+            b = InputDouble.getInputDouble("b");
             if (b > a) {
                 break;
             } else {
                 System.out.println("b SHOULD BE MORE THAN a");
             }
         }
-        h = InputDouble.getNumber("h");
+        h = InputDouble.getInputDouble("h");
     }
 
     public void printTable() {

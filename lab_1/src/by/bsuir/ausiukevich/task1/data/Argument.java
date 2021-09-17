@@ -8,8 +8,8 @@ public class Argument {
     private Double numberY;
 
     public Argument() {
-        numberX = InputDouble.getNumber("X");
-        numberY = InputDouble.getNumber("Y");
+        numberX = InputDouble.getInputDouble("X");
+        numberY = InputDouble.getInputDouble("Y");
     }
 
     public Double getNumberX() {

@@ -19,6 +19,6 @@ public class Check {
     }
 
     private Double installOneCoordinate(String str) {
-        return InputDouble.getNumber(str);
+        return InputDouble.getInputDouble(str);
     }
 }

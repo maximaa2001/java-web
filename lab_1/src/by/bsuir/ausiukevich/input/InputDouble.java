@@ -7,7 +7,7 @@ public class InputDouble {
     private InputDouble() {
     }
 
-    public static Double getNumber(String str) {
+    public static Double getInputDouble(String str) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input number " + str + " ...");
         while (scanner.hasNext()) {
