@@ -2,9 +2,6 @@ package by.bsuir.ausiukevich.input;
 
 import by.bsuir.ausiukevich.exception.InputExeption;
 
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class InputDouble {

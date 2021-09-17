@@ -6,13 +6,13 @@ import by.bsuir.ausiukevich.task4.data.OutputSimpleNumber;
 
 public class Main {
     public static void main(String[] args) {
-        Sequence sequence = new Sequence(new Main().getSizeArray());
+        Sequence sequence = new Sequence(getSizeArray());
         OutputSimpleNumber simpleNumber = new OutputSimpleNumber(sequence);
         sequence.printElements();
         simpleNumber.findSimpleNumbers();
     }
 
-    private int getSizeArray(){
+    private static int getSizeArray(){
         return InputInteger.getInputInteger();
     }
 }

@@ -8,6 +8,7 @@ public class InputInteger {
 
     private InputInteger() {
     }
+
     public static int getInputInteger() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input number ...");
@@ -20,6 +21,6 @@ public class InputInteger {
             }
             System.out.println("Input number ...");
         }
-       throw new InputExeption("Error when entering int number");
+        throw new InputExeption("Error when entering int number");
     }
 }
