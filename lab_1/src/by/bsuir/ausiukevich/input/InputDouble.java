@@ -4,18 +4,19 @@ import java.util.Scanner;
 
 public class InputDouble {
 
-    private InputDouble(){}
+    private InputDouble() {
+    }
 
-    public static Double getNumber(String str){
+    public static Double getNumber(String str) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input number " + str + " ...");
-        while (scanner.hasNext()){
-            if(scanner.hasNextDouble()){
+        while (scanner.hasNext()) {
+            if (scanner.hasNextDouble()) {
                 return scanner.nextDouble();
-            }else if(scanner.hasNextLong()){
+            } else if (scanner.hasNextLong()) {
                 long x = scanner.nextLong();
                 return (double) x;
-            }else {
+            } else {
                 System.out.println("INCORRECT NUMBER");
                 scanner.next();
             }

@@ -7,34 +7,34 @@ public class Function {
     private Double b;
     private Double h;
 
-    public Function(){
+    public Function() {
         installFields();
     }
 
-    private void installFields(){
-        while (true){
+    private void installFields() {
+        while (true) {
             a = InputDouble.getNumber("a");
             b = InputDouble.getNumber("b");
-            if(b > a){
+            if (b > a) {
                 break;
-            }else {
+            } else {
                 System.out.println("b SHOULD BE MORE THAN a");
             }
         }
         h = InputDouble.getNumber("h");
     }
 
-    public void printTable(){
+    public void printTable() {
         System.out.println("----------------------------------");
-        System.out.printf("|%s|--------|%s|\n","Arg","Value");
-        while (a <= b){
-            System.out.printf("|%s|--------|%s|\n",a,calcFunc(a));
+        System.out.printf("|%s|--------|%s|\n", "Arg", "Value");
+        while (a <= b) {
+            System.out.printf("|%s|--------|%s|\n", a, calcFunc(a));
             a = a + h;
         }
         System.out.println("----------------------------------");
     }
 
-    private double calcFunc(Double arg){
+    private double calcFunc(Double arg) {
         return Math.tan(arg);
     }
 
