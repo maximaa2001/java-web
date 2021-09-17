@@ -5,15 +5,14 @@ import java.util.Scanner;
 public class Input {
     private Double numberX;
     private Double numberY;
-    private final Scanner scanner;
 
     public Input() {
-        scanner = new Scanner(System.in);
         numberX = installNumber();
         numberY = installNumber();
     }
 
-    private Double installNumber() {
+    public static Double installNumber() {
+        Scanner scanner = new Scanner(System.in);
         double temp;
         System.out.println("Input number ...");
         do {
