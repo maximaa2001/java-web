@@ -1,14 +1,13 @@
 package by.bsuir.ausiukevich.task7.logic;
 
+import by.bsuir.ausiukevich.input.InputDouble;
 import by.bsuir.ausiukevich.input.InputInteger;
-import by.bsuir.ausiukevich.task7.data.InputArrayNumbers;
 import by.bsuir.ausiukevich.task7.data.SortShell;
 
 public class Main {
     public static void main(String[] args) {
-        InputArrayNumbers inputArrayNumbers = new InputArrayNumbers(getSizeArray());
-        inputArrayNumbers.inputArray();
-        SortShell sortShell = new SortShell(inputArrayNumbers.getInputArray());
+        double[] inputArray = InputDouble.getArrayDouble(getSizeArray());
+        SortShell sortShell = new SortShell(inputArray);
         sortShell.sort();
         sortShell.printArray();
     }
