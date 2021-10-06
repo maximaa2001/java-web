@@ -1,9 +1,6 @@
 package by.bsuir.ausiukevich.task12;
 
-import java.util.ArrayList;
-import java.util.Objects;
-
-public class Book {
+public class Book implements Cloneable{
     private String title;
     private String author;
     private int price;
@@ -15,7 +12,7 @@ public class Book {
         this.price = price;
     }
 
-    public Book(){
+    public Book() {
 
     }
 
@@ -44,18 +41,18 @@ public class Book {
     }
 
     @Override
-    public int hashCode(){
+    public int hashCode() {
         int hashTitle = (title != null) ? title.hashCode() : 0;
         int hashAuthor = (author != null) ? author.hashCode() : 0;
         return hashTitle + hashAuthor + 31 * price;
     }
 
     @Override
-    public boolean equals(Object o){
-        if(o == null || o.getClass() != this.getClass()){
+    public boolean equals(Object o) {
+        if (o == null || o.getClass() != this.getClass()) {
             return false;
         }
-        if(this == o){
+        if (this == o) {
             return true;
         }
         Book book = (Book) o;
@@ -63,7 +60,14 @@ public class Book {
     }
 
     @Override
-    public String toString(){
-        return "title = " + getTitle() + ", author = " + getAuthor() + ", price = " + getPrice();
+    public String toString() {
+        return "Book {title = " + getTitle() + ", author = " + getAuthor() + ", price = " + getPrice() + "}";
+    }
+
+
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }
