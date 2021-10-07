@@ -27,7 +27,7 @@ public class InputInteger {
     public static int[] getRandomArrayInt(int size, int from, int to) {
         int[] array = new int[size];
         for (int i = 0; i < size; i++) {
-            array[i] = (int) (Math.round(Math.random() * to) + from);
+            array[i] = (int) (Math.random() * to) + from;
         }
         return array;
     }
