@@ -2,7 +2,7 @@ package by.bsuir.ausiukevich.task12;
 
 import java.util.Objects;
 
-public class ProgrammerBook extends Book{
+public class ProgrammerBook extends Book {
     private String language;
     private int level;
 
@@ -12,12 +12,18 @@ public class ProgrammerBook extends Book{
         this.level = level;
     }
 
+    public ProgrammerBook(String title, String author, int price, int isbn, String language, int level) {
+        super(title, author, price, isbn);
+        this.language = language;
+        this.level = level;
+    }
+
     public ProgrammerBook(String language, int level) {
         this.language = language;
         this.level = level;
     }
 
-    public ProgrammerBook(){
+    public ProgrammerBook() {
 
     }
 
@@ -45,13 +51,13 @@ public class ProgrammerBook extends Book{
 
     @Override
     public boolean equals(Object o) {
-        if(o == null || o.getClass() != this.getClass()){
+        if (o == null || o.getClass() != this.getClass()) {
             return false;
         }
-        if(this == o){
+        if (this == o) {
             return true;
         }
-        if(!super.equals(o)){
+        if (!super.equals(o)) {
             return false;
         }
         ProgrammerBook book = (ProgrammerBook) o;
@@ -60,7 +66,7 @@ public class ProgrammerBook extends Book{
 
     @Override
     public String toString() {
-        return super.toString() + "ProgrammerBook {language = " + language + ", level = " + level + "}";
+        return super.toString() + " ProgrammerBook {language = " + language + ", level = " + level + "}";
     }
 
 }

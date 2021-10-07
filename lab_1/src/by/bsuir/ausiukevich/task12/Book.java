@@ -1,15 +1,23 @@
 package by.bsuir.ausiukevich.task12;
 
-public class Book implements Cloneable{
+public class Book implements Cloneable, Comparable<Book> {
     private String title;
     private String author;
     private int price;
+    private int isbn;
     private static int edition;
 
     public Book(String title, String author, int price) {
         this.title = title;
         this.author = author;
         this.price = price;
+    }
+
+    public Book(String title, String author, int price, int isbn) {
+        this.title = title;
+        this.author = author;
+        this.price = price;
+        this.isbn = isbn;
     }
 
     public Book() {
@@ -40,6 +48,14 @@ public class Book implements Cloneable{
         this.price = price;
     }
 
+    public int getIsbn() {
+        return isbn;
+    }
+
+    public void setIsbn(int isbn) {
+        this.isbn = isbn;
+    }
+
     @Override
     public int hashCode() {
         int hashTitle = (title != null) ? title.hashCode() : 0;
@@ -61,13 +77,16 @@ public class Book implements Cloneable{
 
     @Override
     public String toString() {
-        return "Book {title = " + getTitle() + ", author = " + getAuthor() + ", price = " + getPrice() + "}";
+        return "Book {title = " + getTitle() + ", author = " + getAuthor() + ", price = " + getPrice() + " isbn = " + isbn + "}";
     }
-
-
 
     @Override
     public Object clone() throws CloneNotSupportedException {
         return super.clone();
+    }
+
+    @Override
+    public int compareTo(Book o) {
+        return this.isbn - o.isbn;
     }
 }
