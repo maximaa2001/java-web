@@ -1,4 +1,4 @@
-package by.bsuir.ausiukevich.task6.data;
+package by.bsuir.ausiukevich.task6;
 
 public class Matrix {
     private double[][] square;

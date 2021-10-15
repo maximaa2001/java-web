@@ -1,4 +1,4 @@
-package by.bsuir.ausiukevich.task2.data;
+package by.bsuir.ausiukevich.task2;
 
 public class Point {
     private double x;

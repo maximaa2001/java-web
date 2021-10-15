@@ -1,4 +1,4 @@
-package by.bsuir.ausiukevich.task8.data;
+package by.bsuir.ausiukevich.task8;
 
 import java.util.List;
 

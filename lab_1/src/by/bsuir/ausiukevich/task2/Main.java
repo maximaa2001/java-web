@@ -1,14 +1,11 @@
-package by.bsuir.ausiukevich.task2.logic;
+package by.bsuir.ausiukevich.task2;
 
 import by.bsuir.ausiukevich.input.InputDouble;
-import by.bsuir.ausiukevich.task2.data.Graphic;
-import by.bsuir.ausiukevich.task2.data.Point;
 
-public class Check {
+public class Main {
     public static void main(String[] args) {
-        Check check = new Check();
-        Graphic graphic = new Graphic(check.installPoint());
-        System.out.println(graphic.checkPoint());
+        Main check = new Main();
+        System.out.println(Graphic.checkPoint(check.installPoint()));
     }
 
     private Point installPoint() {

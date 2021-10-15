@@ -1,4 +1,4 @@
-package by.bsuir.ausiukevich.task7.data;
+package by.bsuir.ausiukevich.task7;
 
 public class SortShell {
     private double[] array;

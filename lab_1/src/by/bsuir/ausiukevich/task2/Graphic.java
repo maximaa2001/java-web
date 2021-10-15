@@ -1,13 +1,10 @@
-package by.bsuir.ausiukevich.task2.data;
+package by.bsuir.ausiukevich.task2;
 
 public class Graphic {
-    private Point point;
-
-    public Graphic(Point point) {
-        this.point = point;
+    private Graphic() {
     }
 
-    public boolean checkPoint() {
+    public static boolean checkPoint(Point point) {
         if (point.getX() > 6 || point.getX() < -6 || point.getY() > 5 || point.getY() < -3) {
             return false;
         } else if (point.getX() >= -4 && point.getX() <= 4) {

@@ -1,4 +1,4 @@
-package by.bsuir.ausiukevich.task3.data;
+package by.bsuir.ausiukevich.task3;
 
 import by.bsuir.ausiukevich.input.InputDouble;
 

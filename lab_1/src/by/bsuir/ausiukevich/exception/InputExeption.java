@@ -1,6 +1,6 @@
 package by.bsuir.ausiukevich.exception;
 
-public class InputExeption extends RuntimeException{
+public class InputExeption extends RuntimeException {
 
     public InputExeption() {
     }

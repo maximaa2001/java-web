@@ -11,15 +11,15 @@ public class Basket {
         this.balls = balls;
     }
 
-    public Basket(){
+    public Basket() {
         balls = new ArrayList<>();
     }
 
-    public void addBall(Ball ball){
+    public void addBall(Ball ball) {
         balls.add(ball);
     }
 
-    public double calcWidthBalls(){
+    public double calcWidthBalls() {
         double commonWidth = 0;
         for (int i = 0; i < balls.size(); i++) {
             commonWidth += balls.get(i).getWidth();
@@ -27,10 +27,10 @@ public class Basket {
         return commonWidth;
     }
 
-    public int calcCountBlueBalls(){
+    public int calcCountBlueBalls() {
         int count = 0;
         for (int i = 0; i < balls.size(); i++) {
-            if(balls.get(i).getColor().equals(Color.BLUE)){
+            if (balls.get(i).getColor().equals(Color.BLUE)) {
                 count++;
             }
         }

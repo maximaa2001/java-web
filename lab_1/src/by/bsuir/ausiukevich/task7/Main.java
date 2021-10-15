@@ -1,8 +1,7 @@
-package by.bsuir.ausiukevich.task7.logic;
+package by.bsuir.ausiukevich.task7;
 
 import by.bsuir.ausiukevich.input.InputDouble;
 import by.bsuir.ausiukevich.input.InputInteger;
-import by.bsuir.ausiukevich.task7.data.SortShell;
 
 public class Main {
     public static void main(String[] args) {

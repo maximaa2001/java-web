@@ -1,13 +1,10 @@
-package by.bsuir.ausiukevich.task4.data;
+package by.bsuir.ausiukevich.task4;
 
-public class OutputSimpleNumber {
-    private Sequence sequence;
-
-    public OutputSimpleNumber(Sequence sequence) {
-        this.sequence = sequence;
+public class ManipulateWithSequence {
+    private ManipulateWithSequence() {
     }
 
-    public void findSimpleNumbers() {
+    public static void findSimpleNumbers(Sequence sequence) {
         int[] arraySequence = sequence.getArray();
         System.out.print("Simple Numbers: ");
         for (int i = 0; i < sequence.getArray().length; i++) {
@@ -28,13 +25,5 @@ public class OutputSimpleNumber {
                 }
             }
         }
-    }
-
-    public Sequence getSequence() {
-        return sequence;
-    }
-
-    public void setSequence(Sequence sequence) {
-        this.sequence = sequence;
     }
 }

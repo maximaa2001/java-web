@@ -37,15 +37,15 @@ public class InputDouble {
         return numbers;
     }
 
-    public static List<Double> getHighestList(int count){
+    public static List<Double> getHighestList(int count) {
         List<Double> list = new ArrayList<>();
         int i = 0;
-        while (i < count){
+        while (i < count) {
             double temp = getInputDouble("of list");
-            if(list.isEmpty() || list.get(list.size()-1) < temp){
+            if (list.isEmpty() || list.get(list.size() - 1) < temp) {
                 list.add(temp);
                 i++;
-            }else {
+            } else {
                 System.out.println("Every next number must be more than previous");
             }
         }

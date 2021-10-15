@@ -1,8 +1,6 @@
-package by.bsuir.ausiukevich.task8.logic;
+package by.bsuir.ausiukevich.task8;
 
 import by.bsuir.ausiukevich.input.InputInteger;
-import by.bsuir.ausiukevich.task8.data.HandlerSequences;
-import by.bsuir.ausiukevich.task8.data.Sequence;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package by.bsuir.ausiukevich.task4.data;
+package by.bsuir.ausiukevich.task4;
 
 public class Sequence {
     private int size;
