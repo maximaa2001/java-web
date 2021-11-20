@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<shop>
+    <appliance xsi:type="laptop" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <id>1</id>
+        <properties>
+            <entry>
+                <key>PRICE</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">5000</value>
+            </entry>
+            <entry>
+                <key>OS</key>
+                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">Windows</value>
+            </entry>
+            <entry>
+                <key>CPU</key>
+                <value xsi:type="xs:double" xmlns:xs="http://www.w3.org/2001/XMLSchema">1.2</value>
+            </entry>
+            <entry>
+                <key>BATTERY_CAPACITY</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">1</value>
+            </entry>
+            <entry>
+                <key>DISPLAY_INCHES</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">18</value>
+            </entry>
+            <entry>
+                <key>MEMORY_ROM</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">4000</value>
+            </entry>
+            <entry>
+                <key>SYSTEM_MEMORY</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">1000</value>
+            </entry>
+        </properties>
+    </appliance>
+    <appliance xsi:type="laptop" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <id>2</id>
+        <properties>
+            <entry>
+                <key>PRICE</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">8000</value>
+            </entry>
+            <entry>
+                <key>OS</key>
+                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">Linux</value>
+            </entry>
+            <entry>
+                <key>CPU</key>
+                <value xsi:type="xs:double" xmlns:xs="http://www.w3.org/2001/XMLSchema">2.2</value>
+            </entry>
+            <entry>
+                <key>BATTERY_CAPACITY</key>
+                <value xsi:type="xs:double" xmlns:xs="http://www.w3.org/2001/XMLSchema">1.5</value>
+            </entry>
+            <entry>
+                <key>DISPLAY_INCHES</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">19</value>
+            </entry>
+            <entry>
+                <key>MEMORY_ROM</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">8000</value>
+            </entry>
+            <entry>
+                <key>SYSTEM_MEMORY</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">1000</value>
+            </entry>
+        </properties>
+    </appliance>
+    <appliance xsi:type="laptop" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <id>3</id>
+        <properties>
+            <entry>
+                <key>PRICE</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">3000</value>
+            </entry>
+            <entry>
+                <key>OS</key>
+                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">Windows</value>
+            </entry>
+            <entry>
+                <key>CPU</key>
+                <value xsi:type="xs:double" xmlns:xs="http://www.w3.org/2001/XMLSchema">3.2</value>
+            </entry>
+            <entry>
+                <key>BATTERY_CAPACITY</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">3</value>
+            </entry>
+            <entry>
+                <key>DISPLAY_INCHES</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">22</value>
+            </entry>
+            <entry>
+                <key>MEMORY_ROM</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">8000</value>
+            </entry>
+            <entry>
+                <key>SYSTEM_MEMORY</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">1500</value>
+            </entry>
+        </properties>
+    </appliance>
+    <appliance xsi:type="speakers" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <id>13</id>
+        <properties>
+            <entry>
+                <key>PRICE</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">500</value>
+            </entry>
+            <entry>
+                <key>CORD_LENGTH</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">2</value>
+            </entry>
+            <entry>
+                <key>FREQUENCY_RANGE</key>
+                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">2-4</value>
+            </entry>
+            <entry>
+                <key>POWER_CONSUMPTION</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">15</value>
+            </entry>
+            <entry>
+                <key>NUMBER_OF_SPEAKERS</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">2</value>
+            </entry>
+        </properties>
+    </appliance>
+    <appliance xsi:type="speakers" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <id>14</id>
+        <properties>
+            <entry>
+                <key>PRICE</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">1000</value>
+            </entry>
+            <entry>
+                <key>CORD_LENGTH</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">3</value>
+            </entry>
+            <entry>
+                <key>FREQUENCY_RANGE</key>
+                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">3-4</value>
+            </entry>
+            <entry>
+                <key>POWER_CONSUMPTION</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">20</value>
+            </entry>
+            <entry>
+                <key>NUMBER_OF_SPEAKERS</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">3</value>
+            </entry>
+        </properties>
+    </appliance>
+    <appliance xsi:type="oven" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <id>4</id>
+        <properties>
+            <entry>
+                <key>CAPACITY</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">32</value>
+            </entry>
+            <entry>
+                <key>PRICE</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">8000</value>
+            </entry>
+            <entry>
+                <key>POWER_CONSUMPTION</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">1000</value>
+            </entry>
+            <entry>
+                <key>WIDTH</key>
+                <value xsi:type="xs:double" xmlns:xs="http://www.w3.org/2001/XMLSchema">59.5</value>
+            </entry>
+            <entry>
+                <key>HEIGHT</key>
+                <value xsi:type="xs:double" xmlns:xs="http://www.w3.org/2001/XMLSchema">45.5</value>
+            </entry>
+            <entry>
+                <key>WEIGHT</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">10</value>
+            </entry>
+            <entry>
+                <key>DEPTH</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">60</value>
+            </entry>
+        </properties>
+    </appliance>
+    <appliance xsi:type="oven" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <id>5</id>
+        <properties>
+            <entry>
+                <key>CAPACITY</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">33</value>
+            </entry>
+            <entry>
+                <key>PRICE</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">1500</value>
+            </entry>
+            <entry>
+                <key>POWER_CONSUMPTION</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">1500</value>
+            </entry>
+            <entry>
+                <key>WIDTH</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">68</value>
+            </entry>
+            <entry>
+                <key>HEIGHT</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">45</value>
+            </entry>
+            <entry>
+                <key>WEIGHT</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">12</value>
+            </entry>
+            <entry>
+                <key>DEPTH</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">60</value>
+            </entry>
+        </properties>
+    </appliance>
+    <appliance xsi:type="oven" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <id>6</id>
+        <properties>
+            <entry>
+                <key>CAPACITY</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">33</value>
+            </entry>
+            <entry>
+                <key>PRICE</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">1200</value>
+            </entry>
+            <entry>
+                <key>POWER_CONSUMPTION</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">2000</value>
+            </entry>
+            <entry>
+                <key>WIDTH</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">70</value>
+            </entry>
+            <entry>
+                <key>HEIGHT</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">40</value>
+            </entry>
+            <entry>
+                <key>WEIGHT</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">11</value>
+            </entry>
+            <entry>
+                <key>DEPTH</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">60</value>
+            </entry>
+        </properties>
+    </appliance>
+    <appliance xsi:type="refrigerator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <id>7</id>
+        <properties>
+            <entry>
+                <key>PRICE</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">4500</value>
+            </entry>
+            <entry>
+                <key>POWER_CONSUMPTION</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">100</value>
+            </entry>
+            <entry>
+                <key>WIDTH</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">70</value>
+            </entry>
+            <entry>
+                <key>OVERALL_CAPACITY</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">300</value>
+            </entry>
+            <entry>
+                <key>HEIGHT</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">200</value>
+            </entry>
+            <entry>
+                <key>WEIGHT</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">20</value>
+            </entry>
+            <entry>
+                <key>FREEZER_CAPACITY</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">10</value>
+            </entry>
+        </properties>
+    </appliance>
+    <appliance xsi:type="refrigerator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <id>8</id>
+        <properties>
+            <entry>
+                <key>PRICE</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">6000</value>
+            </entry>
+            <entry>
+                <key>POWER_CONSUMPTION</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">200</value>
+            </entry>
+            <entry>
+                <key>WIDTH</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">80</value>
+            </entry>
+            <entry>
+                <key>OVERALL_CAPACITY</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">300</value>
+            </entry>
+            <entry>
+                <key>HEIGHT</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">180</value>
+            </entry>
+            <entry>
+                <key>WEIGHT</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">30</value>
+            </entry>
+            <entry>
+                <key>FREEZER_CAPACITY</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">15</value>
+            </entry>
+        </properties>
+    </appliance>
+    <appliance xsi:type="vacuumCleaner" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <id>9</id>
+        <properties>
+            <entry>
+                <key>PRICE</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">7000</value>
+            </entry>
+            <entry>
+                <key>MOTOR_SPEED_REGULATION</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">3000</value>
+            </entry>
+            <entry>
+                <key>WAND_TYPE</key>
+                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">all-in-one</value>
+            </entry>
+            <entry>
+                <key>CLEANING_WIDTH</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">20</value>
+            </entry>
+            <entry>
+                <key>FILTER_TYPE</key>
+                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">A</value>
+            </entry>
+            <entry>
+                <key>POWER_CONSUMPTION</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">100</value>
+            </entry>
+            <entry>
+                <key>BAG_TYPE</key>
+                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">A2</value>
+            </entry>
+        </properties>
+    </appliance>
+    <appliance xsi:type="vacuumCleaner" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <id>10</id>
+        <properties>
+            <entry>
+                <key>PRICE</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">7500</value>
+            </entry>
+            <entry>
+                <key>MOTOR_SPEED_REGULATION</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">2900</value>
+            </entry>
+            <entry>
+                <key>WAND_TYPE</key>
+                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">all-in-one</value>
+            </entry>
+            <entry>
+                <key>CLEANING_WIDTH</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">25</value>
+            </entry>
+            <entry>
+                <key>FILTER_TYPE</key>
+                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">B</value>
+            </entry>
+            <entry>
+                <key>POWER_CONSUMPTION</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">110</value>
+            </entry>
+            <entry>
+                <key>BAG_TYPE</key>
+                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">AA-89</value>
+            </entry>
+        </properties>
+    </appliance>
+    <appliance xsi:type="tabletPC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <id>11</id>
+        <properties>
+            <entry>
+                <key>PRICE</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">1000</value>
+            </entry>
+            <entry>
+                <key>COLOR</key>
+                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">blue</value>
+            </entry>
+            <entry>
+                <key>FLASH_MEMORY_CAPACITY</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">2</value>
+            </entry>
+            <entry>
+                <key>BATTERY_CAPACITY</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">3</value>
+            </entry>
+            <entry>
+                <key>DISPLAY_INCHES</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">14</value>
+            </entry>
+            <entry>
+                <key>MEMORY_ROM</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">8000</value>
+            </entry>
+        </properties>
+    </appliance>
+    <appliance xsi:type="tabletPC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <id>12</id>
+        <properties>
+            <entry>
+                <key>PRICE</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">800</value>
+            </entry>
+            <entry>
+                <key>COLOR</key>
+                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">red</value>
+            </entry>
+            <entry>
+                <key>FLASH_MEMORY_CAPACITY</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">6</value>
+            </entry>
+            <entry>
+                <key>BATTERY_CAPACITY</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">4</value>
+            </entry>
+            <entry>
+                <key>DISPLAY_INCHES</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">15</value>
+            </entry>
+            <entry>
+                <key>MEMORY_ROM</key>
+                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema">8000</value>
+            </entry>
+        </properties>
+    </appliance>
+</shop>
