@@ -22,7 +22,7 @@ public class Main {
 
         Criteria criteriaLaptop = new Criteria(SearchCriteria.Laptop.class.getName());//  Laptop with MEMORY_ROM = 8000
         criteriaLaptop.add(SearchCriteria.Laptop.MEMORY_ROM.toString(), 8000);
-      //  PrintApplianceInfo.print(service.find(criteriaLaptop));
+       // PrintApplianceInfo.print(service.find(criteriaLaptop));
 
 
         criteriaLaptop.add(SearchCriteria.Laptop.OS.toString(), "Windows");// Laptop with MEMORY_ROM = 8000 and OS = Windows
